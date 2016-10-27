@@ -1,0 +1,90 @@
+html, body {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;
+  margin: 0;
+  color: #404040;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+*, a, button, i, input {
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+.footer {
+  text-align: center;
+}
+input:-webkit-autofill {
+  -moz-box-shadow: 0 0 0 1000px white inset;
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+  box-shadow: 0 0 0 1000px white inset;
+}
+.inputField {
+  text-align: left;
+}
+.wrapper {
+  width: 100%;
+	overflow: hidden;
+  margin-top: 20px;
+}
+.line_item_form h3 {
+  padding: 0;
+  margin: 0;
+}
+ul.pagination {
+ margin: 12px 0;
+ text-align: center;
+}
+ul.pagination>li {
+ display: inline-block;
+}
+ul.pagination>li.previous a,
+ul.pagination>li.next a{
+ color: white;
+ padding: 5px 10px;
+ text-decoration: none;
+}
+ul.pagination>li>ul>li {
+ display: inline-block;
+ margin: 0 4px;
+}
+ul.pagination>li>ul>li a {
+ text-decoration: none;
+ color: white;
+ padding: 5px 10px;
+}
+ul.pagination>li>ul>li a:hover,
+ul.pagination>li.previous a:hover,
+ul.pagination>li.next a:hover {
+ opacity: 0.6;
+}
+.pagination>li>ul>.selectedPageNum a {
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+
+.fa {
+  vertical-align: middle;
+}
+
+.attachmentsComponent .holder {
+  background: url(/images/receipt-upload.png) right 0 no-repeat;
+  background-size: 189px 200px;
+  cursor: pointer;
+  margin: 0 auto;
+  position: relative;
+}
